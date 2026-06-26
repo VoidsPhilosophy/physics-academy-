@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard | Physics Universe</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <div class="logo"><a href="index.html"><strong>Physics Universe</strong></a></div>
+            <div class="user-profile">User Profile ▼</div>
+        </nav>
+    </header>
+
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#" class="active">Overview</a></li>
+                <li><a href="#">My Lessons</a></li>
+                <li><a href="#">Saved Simulations</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </aside>
+
+        <main class="dashboard-content">
+            <h1>Welcome Back, Learner</h1>
+            
+            <section class="stats-grid">
+                <div class="stat-card"><h3>Progress</h3><p>65% Complete</p></div>
+                <div class="stat-card"><h3>Quizzes</h3><p>12 Taken</p></div>
+                <div class="stat-card"><h3>Simulations</h3><p>5 Active</p></div>
+            </section>
+
+            <section class="activity-feed">
+                <h2>Recent Activity</h2>
+                <div id="activity-list">
+                    </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
