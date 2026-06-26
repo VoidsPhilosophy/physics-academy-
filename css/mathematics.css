@@ -1,0 +1,39 @@
+/* css/mathematics.css */
+
+.math-hero {
+    padding: 100px 20px;
+    text-align: center;
+    /* Using a different gradient to distinguish from Physics */
+    background: linear-gradient(135deg, #0f172a 0%, #312e81 100%);
+}
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: 1px solid #334155;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    /* Using a distinct accent for Math */
+    background: #818cf8; 
+    color: #fff;
+}
+
+.grid-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
