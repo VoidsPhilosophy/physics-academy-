@@ -1,0 +1,37 @@
+/* css/articles.css */
+
+.articles-hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: #0f172a;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#article-search {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background: var(--bg-secondary);
+    color: white;
+}
+
+.articles-grid {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Card style for long-form content */
+.article-card {
+    background: var(--bg-secondary);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-color);
+}
